@@ -1,37 +1,39 @@
 ## 設定
-- アクティビティバー非表示にする
-- Auto Save->afterDelay
-- Tab Size->2
-- Word Wrap->on
-- Diff Word Wrap->on
-- Emmet lang->ja
-- Trigger Expansion On Tab->チェック
-- Font Size->18
-- Render Whitespace->all
-- Font Family->Ricty Diminished
-- Minimap: Enabled->チェックを外す
-- Hover: Enabled->チェックを外す
-- Encoding->UTF-8
-- Render Line Highlight->gutter
-- Unicode Highlight: Invisible Characters->チェックを外す
-- Unicode Highlight: Non Basic ASCII->false
-- Title->${dirty}\${activeEditorMedium}${separator}${rootName}
-- Tree: Indent->12
-- Tree: Render Indent Guides->always
-- Integrated: Font Size->18
-- Bracket Pair Colorization: Enabled->チェック
-- editor.folding->チェックを外す
-- Suggest: Basic->チェックを外す
-- Word Separators->$を消す
+- アクティビティ バー非表示にする
+- Files: Auto Save->afterDelay
+- Editor: Tab Size->2
+- Editor: Word Wrap->on
+- Diff Editor: Word Wrap->on
+- Emmet: Variables->lang - ja
+- Emmet: Trigger Expansion On Tab->チェック
+- Editor: Font Size->18
+- Editor: Render Whitespace->all
+- Editor: Font Family->Ricty Diminished
+- Editor › Minimap: Enabled->チェックを外す
+- Editor › Hover: Enabled->チェックを外す
+- Files: Encoding->UTF-8
+- Editor: Render Line Highlight->gutter
+- Editor › Unicode Highlight: Invisible Characters->チェックを外す
+- Editor › Unicode Highlight: Non Basic ASCII->false
+- Window: Title->${dirty}\${activeEditorMedium}${separator}${rootName}
+- Workbench › Tree: Indent->12
+- Workbench › Tree: Render Indent Guides->always
+- Terminal › Integrated: Font Size->18
+- Editor › Bracket Pair Colorization: Enabled->チェック
+- Editor: Folding->チェックを外す
+- PHP › Suggest: Basic->チェックを外す
+- Editor: Word Separators->$を消す
 
 ```
 // 保存時にコードが整形される
 "editor.formatOnSave": true,
+
 // 無駄なホワイトスペースを削除
 "files.trimTrailingWhitespace": true,
-//ブレークポイントの領域を消す
+
+// 番号左ブレークポイントの領域を消す
 "editor.glyphMargin": false,
-"terminal.integrated.fontSize": 18,
+
 // 字間と行間を小さくする。
 "editor.letterSpacing": -0.3,
 "editor.lineHeight": 20,
@@ -39,7 +41,8 @@
 // プレビューモードで開かれないようにする。
 "workbench.editor.enablePreview": false,
 "workbench.editor.enablePreviewFromQuickOpen": false,
-// 素早い補完(Tailwind CSS)
+
+// 素早い補完(Tailwind CSS用)
 "editor.quickSuggestions": {
         "strings": true
     },
