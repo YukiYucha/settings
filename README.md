@@ -1,11 +1,12 @@
-## 設定
+## **設定**
+
 - アクティビティ バー非表示にする
 - Files: Auto Save->afterDelay
 - Editor: Tab Size->2
 - Editor: Word Wrap->on
 - Diff Editor: Word Wrap->on
 - Emmet: Variables->lang - ja
-- Emmet: Trigger Expansion On Tab->チェック
+- Emmet: Trigger Expansion On Tab->チェックを外す(GoでTabが使えなかったから)
 - Editor: Font Size->18
 - Editor: Render Whitespace->all
 - Editor: Font Family->Ricty Diminished
@@ -24,33 +25,44 @@
 - PHP › Suggest: Basic->チェックを外す
 - Editor: Word Separators->$を消す
 
-```
+```json
 // 保存時にコードが整形される
+
 "editor.formatOnSave": true,
 
 // 無駄なホワイトスペースを削除
+
 "files.trimTrailingWhitespace": true,
 
 // 番号左ブレークポイントの領域を消す
+
 "editor.glyphMargin": false,
 
 // 字間と行間を小さくする。
+
 "editor.letterSpacing": -0.3,
+
 "editor.lineHeight": 20,
 
 // プレビューモードで開かれないようにする。
+
 "workbench.editor.enablePreview": false,
+
 "workbench.editor.enablePreviewFromQuickOpen": false,
 
 // 素早い補完(Tailwind CSS用)
+
 "editor.quickSuggestions": {
-        "strings": true
-    },
+
+"strings": true
+
+},
 ```
 
-## 拡張機能
+## **拡張機能**
 
-### デフォルト
+### **デフォルト**
+
 - Activitus Bar
 - Code Spell Checker
 - Dracula Official->Dracula Soft
@@ -66,17 +78,24 @@
 - Auto Rename Tag
 - Docker
 
-### Laravel
+### **Laravel**
+
 - Laravel Snippets
 - Laravel Blade Snippets
 - Laravel Artisan
 - Laravel Blade Spacer
 
-### PHP
+### **PHP**
+
 - PHP Intelephense
 - PHP DocBlocker
 - PHP Debug
 - php cs fixer
 
-### Tailwind CSS
+### **Tailwind CSS**
+
 - Tailwind CSS IntelliSense
+
+### Golang
+
+- Go
