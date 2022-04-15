@@ -24,6 +24,7 @@
 - Editor: Folding->チェックを外す
 - PHP › Suggest: Basic->チェックを外す
 - Editor: Word Separators->$を消す
+- **Files: Eol→\n**
 
 ```json
 // 保存時にコードが整形される
