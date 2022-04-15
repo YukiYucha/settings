@@ -74,6 +74,7 @@
 - Path Intellisense
 - GitLens - Git supercharged
 - Git History
+- Git Graph
 - DotENV
 - Auto Rename Tag
 - Docker
