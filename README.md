@@ -103,7 +103,8 @@ Editor: Default Formatter->Prettier
 - DotENV
 - Auto Rename Tag
 - Docker
-- Prettier
+- Prettier - Code formatter
+- GitHub Pull Requests and Issues
 
 ### **Laravel**
 
