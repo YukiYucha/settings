@@ -101,7 +101,7 @@ Editor: Default Formatter->Prettier
 - Japanese Language Pack for Visual Studio Code
 - Live Server
 - Path Intellisense
-- Prettier - Code formatter
+- Prettier - Code formatter(コード整形は全部これ)
 - vscode-icons
 
 ### **Laravel**
@@ -116,7 +116,6 @@ Editor: Default Formatter->Prettier
 - PHP Intelephense
 - PHP DocBlocker
 - PHP Debug
-- php cs fixer
 
 ### **Tailwind CSS**
 
