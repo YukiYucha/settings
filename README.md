@@ -89,22 +89,21 @@ Editor: Default Formatter->Prettier
 # **拡張機能**
 
 - Activitus Bar
+- Auto Rename Tag
 - Code Spell Checker
+- Docker
+- DotENV
 - Dracula Official->Dracula Soft
 - EditorConfig for VS Code
+- Git Graph
+- Git History
+- GitHub Pull Requests and Issues
+- indent-rainbow
 - Japanese Language Pack for Visual Studio Code
 - Live Server
-- vscode-icons
-- indent-rainbow
 - Path Intellisense
-- GitLens - Git supercharged
-- Git History
-- Git Graph
-- DotENV
-- Auto Rename Tag
-- Docker
 - Prettier - Code formatter
-- GitHub Pull Requests and Issues
+- vscode-icons
 
 ### **Laravel**
 
