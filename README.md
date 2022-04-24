@@ -61,7 +61,7 @@ Editor: Default Formatter->Prettier
 
 "files.trimTrailingWhitespace": true,
 
-// 番号左ブレークポイントの領域を消す
+// 番号左ブレークポイントの領域を消す(デバック時以外)
 
 "editor.glyphMargin": false,
 
@@ -97,7 +97,6 @@ Editor: Default Formatter->Prettier
 - EditorConfig for VS Code
 - Git Graph
 - Git History
-- GitHub Pull Requests and Issues
 - indent-rainbow
 - Japanese Language Pack for Visual Studio Code
 - Live Server
