@@ -52,42 +52,35 @@ Files: Eol→\n
 
 Editor: Default Formatter->Prettier
 
+Editor: Render Control Character->チェック(バックスペース文字表示)
+
 ```json
 // 保存時にコードが整形される
-
 "editor.formatOnSave": true,
 
 // 無駄なホワイトスペースを削除
-
 "files.trimTrailingWhitespace": true,
 
 // 番号左ブレークポイントの領域を消す(デバック時以外)
-
 "editor.glyphMargin": false,
 
 // 字間と行間を小さくする。
-
 "editor.letterSpacing": -0.3,
-
 "editor.lineHeight": 20,
 
 // プレビューモードで開かれないようにする。
-
 "workbench.editor.enablePreview": false,
-
 "workbench.editor.enablePreviewFromQuickOpen": false,
 
 // 素早い補完(Tailwind CSS用)
-
 "editor.quickSuggestions": {
-
-"strings": true
-
+	"strings": true
 },
 ```
 
-# **拡張機能**
+# 拡張機能
 
+- Debugger for Chrome
 - Activitus Bar
 - Auto Rename Tag
 - Code Spell Checker
@@ -103,3 +96,4 @@ Editor: Default Formatter->Prettier
 - Path Intellisense
 - Prettier - Code formatter(コード整形は全部これ)
 - vscode-icons
+- YAML
