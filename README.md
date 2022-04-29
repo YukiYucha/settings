@@ -97,4 +97,4 @@ Editor: Render Control Character->チェック(バックスペース文字表�
 - Prettier - Code formatter(コード整形は全部これ)
 - vscode-icons
 - YAML
-- Remote Development (winだけ)
+- Remote Development (たまに。winだけ)
