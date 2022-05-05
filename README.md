@@ -1,8 +1,8 @@
 # 設定
 
-アクティビティ バー非表示にする
+アクティビティバー非表示にする
 
-Files: Auto Save->afterDelay
+Files: Auto Save->off
 
 Editor: Tab Size->2
 
@@ -52,7 +52,7 @@ Files: Eol→\n
 
 Editor: Default Formatter->Prettier
 
-Editor: Render Control Character->チェック(バックスペース文字表示)
+Editor: Render Control Character->チェック(制御文字を表示する)
 
 ```json
 // 保存時にコードが整形される
@@ -80,8 +80,8 @@ Editor: Render Control Character->チェック(バックスペース文字表�
 
 # 拡張機能
 
-- Debugger for Chrome
 - Activitus Bar
+- Auto Close Tag
 - Auto Rename Tag
 - Code Spell Checker
 - Docker
@@ -90,6 +90,7 @@ Editor: Render Control Character->チェック(バックスペース文字表�
 - EditorConfig for VS Code
 - Git Graph
 - Git History
+- GitLens supercharges
 - indent-rainbow
 - Japanese Language Pack for Visual Studio Code
 - Live Server
@@ -97,4 +98,4 @@ Editor: Render Control Character->チェック(バックスペース文字表�
 - Prettier - Code formatter(コード整形は全部これ)
 - vscode-icons
 - YAML
-- Remote Development (たまに。winだけ)
+- Markdown Preview Enhanced
