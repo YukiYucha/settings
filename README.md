@@ -1,6 +1,6 @@
-# 設定
+## 設定
 
-アクティビティバー非表示にする
+アクティビティバーを非表示に
 
 Files: Auto Save->off
 
@@ -10,9 +10,7 @@ Editor: Word Wrap->on
 
 Diff Editor: Word Wrap->on
 
-Emmet: Variables->lang - ja
-
-Emmet: Trigger Expansion On Tab->チェックを外す(GoでTabが使えなかったから)
+Emmet: Variables->lang jaを追加
 
 Editor: Font Size->18
 
@@ -26,27 +24,13 @@ Editor › Hover: Enabled->チェックを外す
 
 Files: Encoding->UTF-8
 
-Editor: Render Line Highlight->gutter
-
 Editor › Unicode Highlight: Invisible Characters->チェックを外す
-
-Editor › Unicode Highlight: Non Basic ASCII->false
-
-Window: Title->${dirty}\${activeEditorMedium}${separator}${rootName}
-
-Workbench › Tree: Indent->12
-
-Workbench › Tree: Render Indent Guides->always
 
 Terminal › Integrated: Font Size->18
 
 Editor › Bracket Pair Colorization: Enabled->チェック
 
 Editor: Folding->チェックを外す
-
-PHP › Suggest: Basic->チェックを外す
-
-Editor: Word Separators->$を消す
 
 Files: Eol→\n
 
@@ -55,14 +39,8 @@ Editor: Default Formatter->Prettier
 Editor: Render Control Character->チェック(制御文字を表示する)
 
 ```json
-// 保存時にコードが整形される
-"editor.formatOnSave": true,
-
 // 無駄なホワイトスペースを削除
 "files.trimTrailingWhitespace": true,
-
-// 番号左ブレークポイントの領域を消す(デバック時以外)
-"editor.glyphMargin": false,
 
 // 字間と行間を小さくする。
 "editor.letterSpacing": -0.3,
@@ -71,31 +49,20 @@ Editor: Render Control Character->チェック(制御文字を表示する)
 // プレビューモードで開かれないようにする。
 "workbench.editor.enablePreview": false,
 "workbench.editor.enablePreviewFromQuickOpen": false,
-
-// 素早い補完(Tailwind CSS用)
-"editor.quickSuggestions": {
-	"strings": true
-},
 ```
 
-# 拡張機能
+## 拡張機能
 
 - Activitus Bar
 - Auto Close Tag
 - Auto Rename Tag
 - Code Spell Checker
-- Docker
-- DotENV
 - Dracula Official->Dracula Soft
 - EditorConfig for VS Code
 - Git Graph
 - Git History
-- GitLens supercharges
 - indent-rainbow
 - Japanese Language Pack for Visual Studio Code
-- Live Server
 - Path Intellisense
 - Prettier - Code formatter(コード整形は全部これ)
 - vscode-icons
-- YAML
-- Markdown Preview Enhanced
