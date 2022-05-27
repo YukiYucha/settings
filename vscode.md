@@ -16,7 +16,7 @@ Editor: Font Size->18
 
 Editor: Render Whitespace->all
 
-Editor: Font Family->Ricty Diminished
+Editor: Font Family->'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace
 
 Editor › Minimap: Enabled->チェックを外す
 
@@ -57,12 +57,12 @@ Editor: Render Control Character->チェック(制御文字を表示する)
 - Auto Close Tag
 - Auto Rename Tag
 - Code Spell Checker
-- Dracula Official->Dracula Soft
+- GitHub Theme->GitHub Dark Dimmed
 - EditorConfig for VS Code
 - Git Graph
 - Git History
 - indent-rainbow
 - Japanese Language Pack for Visual Studio Code
 - Path Intellisense
-- Prettier - Code formatter(コード整形は全部これ)
+- Prettier - Code formatter
 - vscode-icons
