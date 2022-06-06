@@ -39,3 +39,9 @@ plugins=(
 ```
 $ source ~/.zshrc
 ```
+
+プロンプトの設定
+```~/.zshrc
+export PS1="%{${fg[magenta]}%}%~
+%{${fg[cyan]}%}$ "
+```
