@@ -16,7 +16,7 @@ Editor: Font Size->18
 
 Editor: Render Whitespace->all
 
-Editor: Font Family->'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace
+Editor: Font Family->Ricty Diminished
 
 Editor › Minimap: Enabled->チェックを外す
 
@@ -54,15 +54,8 @@ Editor: Render Control Character->チェック(制御文字を表示する)
 ## 拡張機能
 
 - Activitus Bar
-- Auto Close Tag
-- Auto Rename Tag
-- Code Spell Checker
 - GitHub Theme->GitHub Dark Dimmed
-- EditorConfig for VS Code
-- Git Graph
-- Git History
-- indent-rainbow
+- Go
 - Japanese Language Pack for Visual Studio Code
-- Path Intellisense
 - Prettier - Code formatter
 - vscode-icons
