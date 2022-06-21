@@ -1,61 +1,36 @@
-## 設定
+### 設定
 
-アクティビティバーを非表示に
+アクティビティバー非表示
 
-Files: Auto Save->off
+Editor: Tab Size 2
 
-Editor: Tab Size->2
+Editor: Word Wrap on
 
-Editor: Word Wrap->on
+Diff Editor: Word Wrap on
 
-Diff Editor: Word Wrap->on
+Emmet: Variables lang ja
 
-Emmet: Variables->lang jaを追加
+Editor: Font Size 20
 
-Editor: Font Size->18
+Editor: Render Whitespace all
 
-Editor: Render Whitespace->all
+Editor: Font Family Ricty Diminished
 
-Editor: Font Family->Ricty Diminished
+Editor › Minimap: Enabled チェックを外す
 
-Editor › Minimap: Enabled->チェックを外す
+Editor › Hover: Enabled チェックを外す
 
-Editor › Hover: Enabled->チェックを外す
+Terminal › Integrated: Font Size 20
 
-Files: Encoding->UTF-8
+Editor: Folding チェックを外す
 
-Editor › Unicode Highlight: Invisible Characters->チェックを外す
+Files: Eol \n
 
-Terminal › Integrated: Font Size->18
+Files: Trim Trailing Whitespace チェック
 
-Editor › Bracket Pair Colorization: Enabled->チェック
-
-Editor: Folding->チェックを外す
-
-Files: Eol→\n
-
-Editor: Default Formatter->Prettier
-
-Editor: Render Control Character->チェック(制御文字を表示する)
-
-```json
-// 無駄なホワイトスペースを削除
-"files.trimTrailingWhitespace": true,
-
-// 字間と行間を小さくする。
-"editor.letterSpacing": -0.3,
-"editor.lineHeight": 20,
-
-// プレビューモードで開かれないようにする。
-"workbench.editor.enablePreview": false,
-"workbench.editor.enablePreviewFromQuickOpen": false,
-```
-
-## 拡張機能
-
+### 拡張機能
 - Activitus Bar
-- GitHub Theme->GitHub Dark Dimmed
+- GitHub Theme GitHub Dark Dimmed
 - Go
 - Japanese Language Pack for Visual Studio Code
-- Prettier - Code formatter
 - vscode-icons
