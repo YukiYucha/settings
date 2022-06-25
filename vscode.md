@@ -10,7 +10,7 @@ Diff Editor: Word Wrap on
 
 Emmet: Variables lang ja
 
-Editor: Font Size 20
+Editor: Font Size 18
 
 Editor: Render Whitespace all
 
