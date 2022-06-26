@@ -45,3 +45,10 @@ $ source ~/.zshrc
 export PS1="%{${fg[magenta]}%}%~
 %{${fg[cyan]}%}$ "
 ```
+
+GOPATH
+```~/.zshrc
+export GOPATH=$HOME/go
+```
+$ export PATH=$PATH:$GOPATH/bin
+
