@@ -20,7 +20,7 @@ Editor › Minimap: Enabled チェックを外す
 
 Editor › Hover: Enabled チェックを外す
 
-Terminal › Integrated: Font Size 20
+Terminal › Integrated: Font Size 18
 
 Editor: Folding チェックを外す
 
