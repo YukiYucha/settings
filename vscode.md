@@ -8,11 +8,7 @@ Editor: Word Wrap on
 
 Diff Editor: Word Wrap on
 
-Emmet: Variables lang ja
-
 Editor: Font Size 18
-
-Editor: Render Whitespace all
 
 Editor: Font Family Ricty Diminished
 
@@ -21,12 +17,6 @@ Editor › Minimap: Enabled チェックを外す
 Editor › Hover: Enabled チェックを外す
 
 Terminal › Integrated: Font Size 18
-
-Editor: Folding チェックを外す
-
-Files: Eol \n
-
-Files: Trim Trailing Whitespace チェック
 
 ### 拡張機能
 - Activitus Bar
