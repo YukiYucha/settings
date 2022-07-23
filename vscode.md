@@ -6,15 +6,11 @@ Editor: Tab Size 2
 
 Editor: Word Wrap on
 
-Diff Editor: Word Wrap on
-
 Editor: Font Size 18
 
 Editor: Font Family Ricty Diminished
 
 Editor › Minimap: Enabled チェックを外す
-
-Editor › Hover: Enabled チェックを外す
 
 Terminal › Integrated: Font Size 18
 
