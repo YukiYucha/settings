@@ -20,3 +20,4 @@ Terminal › Integrated: Font Size 18
 - Go
 - Japanese Language Pack for Visual Studio Code
 - vscode-icons
+- live server
