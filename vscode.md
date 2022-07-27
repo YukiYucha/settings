@@ -15,11 +15,14 @@ Editor › Minimap: Enabled チェックを外す
 Terminal › Integrated: Font Size 18
 
 ### 拡張機能
-- Activitus Bar
-- GitHub Theme GitHub Dark Dimmed
-- Go
-- Japanese Language Pack for Visual Studio Code
-- vscode-icons
+Activitus Bar
 
-- Live Server
-- ES7+ React/Redux/React-Native snippets
+GitHub Theme GitHub Dark Dimmed
+
+Go
+
+ES7+ React/Redux/React-Native snippets
+
+Japanese Language Pack for Visual Studio Code
+
+vscode-icons
